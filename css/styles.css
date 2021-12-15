@@ -1,0 +1,136 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  font-family: "biko";
+  color: #5e5e5e;
+}
+
+.colorPrincipal {
+  background-color: #ffe0e6;
+}
+
+.colorSecundario {
+  background-color: #b4d2f0;
+}
+
+@keyframes welcome {
+  0% {
+    background: linear-gradient(90deg, #b4d2f0 0%, #ffe0e6 58%);
+  }
+  25% {
+    background: linear-gradient(90deg, #b4d2f0 0%, #ffe0e6 85%);
+  }
+  50% {
+    background: linear-gradient(90deg, #b4d2f0 76%, #ffe0e6 100%);
+  }
+  75% {
+    background: linear-gradient(90deg, #ffe0e6 15%, #b4d2f0 50%);
+  }
+  100% {
+    background: linear-gradient(90deg, #ffe0e6 25%, #b4d2f0 100%);
+  }
+}
+.cabeceraGeneral {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffe0e6 30%, #b4d2f0 100%);
+  animation-name: welcome;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+.cabeceraGeneral h1 {
+  font-size: 6vh;
+}
+.cabeceraGeneral h2 {
+  font-size: 4vh;
+}
+.cabeceraGeneral .cabeceraGeneral__links {
+  background-color: #b4d2f0;
+}
+.cabeceraGeneral .cabeceraGeneral__links .cabeceraGeneral__links__search {
+  background-color: white;
+}
+.cabeceraGeneral .cabeceraGeneral__links .cabeceraGeneral__links__search:focus-within {
+  background-color: #ffe0e6;
+}
+.cabeceraGeneral #nav__links {
+  font-size: 4vh;
+}
+.cabeceraGeneral #nav__links :hover {
+  color: #ffe0e6;
+  font-size: large;
+}
+
+.cuerpoIndex {
+  background-image: url(../images/bebeoso.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cuerpoIndex p {
+  font-size: 5.2vh;
+}
+.cuerpoIndex p:hover {
+  color: white;
+}
+.cuerpoIndex .cuerpoIndex__titulo {
+  font-size: 5vh;
+  background-color: #ffe0e6;
+}
+
+.bordes {
+  border: 0.5em solid #b4d2f0;
+}
+
+article {
+  background-color: #b4d2f0;
+}
+article h3 {
+  font-size: 5vh;
+}
+article p {
+  font-size: 2.8vh;
+}
+article .promocion__link {
+  color: #5e5e5e;
+}
+article .promocion__link:hover {
+  color: #ffe0e6;
+}
+
+.seccion {
+  background-color: #ffe0e6;
+}
+.seccion h3 {
+  font-size: 3.2vh;
+}
+.seccion div ul li {
+  font-size: 3vh;
+}
+
+footer {
+  background-color: #ffe0e6;
+  height: 20vh;
+}
+footer li {
+  font-size: 2.7vh;
+}
+footer .footer__whatsapp {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+}
+
+/*# sourceMappingURL=styles.css.map */

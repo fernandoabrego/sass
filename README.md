@@ -1,2 +1,2 @@
 # sass
-Link a entrega SASS: https://fernandoabrego.github.io/sass/
+Link a entrega SASS: https://fernandoabrego.github.io/sass/index.html

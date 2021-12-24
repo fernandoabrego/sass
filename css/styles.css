@@ -1,3 +1,8 @@
+.footer, .footer__ColorSecundario {
+  border: 3px solid gray;
+  border-radius: 2px;
+}
+
 * {
   margin: 0 !important;
   padding: 0 !important;
@@ -49,6 +54,7 @@ body {
   animation-name: welcome;
   animation-duration: 2s;
   animation-timing-function: linear;
+  z-index: 80;
 }
 .cabeceraGeneral h1 {
   font-size: 6vh;
@@ -66,7 +72,7 @@ body {
   background-color: #ffe0e6;
 }
 .cabeceraGeneral #nav__links {
-  font-size: 4vh;
+  font-size: 3.5vh;
 }
 .cabeceraGeneral #nav__links :hover {
   color: #ffe0e6;
@@ -78,16 +84,33 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.cuerpoIndex p {
-  font-size: 5.2vh;
-}
-.cuerpoIndex p:hover {
-  color: white;
+  height: 120vh;
 }
 .cuerpoIndex .cuerpoIndex__titulo {
   font-size: 5vh;
   background-color: #ffe0e6;
+}
+.cuerpoIndex .carrusel img {
+  height: 95vh;
+}
+@media (max-width: 575px) {
+  .cuerpoIndex .carrusel img {
+    height: 80vh;
+    width: 100%;
+  }
+}
+
+.contenedor__Principal {
+  line-height: 2;
+}
+.contenedor__Principal h3 {
+  font-size: 5vh;
+}
+.contenedor__Principal div h4 {
+  font-size: 3.5vh;
+}
+.contenedor__Principal div p {
+  font-size: 3vh;
 }
 
 .bordes {
@@ -110,27 +133,89 @@ article .promocion__link:hover {
   color: #ffe0e6;
 }
 
+.formulario {
+  margin-left: 25vw;
+  margin-right: 20vw;
+}
+.formulario h3 {
+  font-size: 3.5vh;
+}
+
 .seccion {
   background-color: #ffe0e6;
 }
 .seccion h3 {
-  font-size: 3.2vh;
+  font-size: 5vh;
 }
 .seccion div ul li {
   font-size: 3vh;
+  line-height: 2;
 }
 
-footer {
+.footer, .footer__ColorSecundario {
   background-color: #ffe0e6;
-  height: 20vh;
+  height: 25vh;
+  color: black;
 }
-footer li {
+.footer li, .footer__ColorSecundario li {
   font-size: 2.7vh;
+  line-height: 1.2;
 }
-footer .footer__whatsapp {
+.footer .footer__whatsapp, .footer__ColorSecundario .footer__whatsapp {
   position: fixed;
   bottom: 5vh;
   right: 5vw;
+}
+
+.footer__ColorSecundario {
+  background-color: #b4d2f0;
+}
+
+.cuerpo {
+  background-image: url(../images/bebe2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cuerpo .cuerpo__Titulo {
+  font-size: 5vh;
+  background-color: #ffe0e6;
+}
+.cuerpo .nuestraInfo__lista {
+  list-style-type: none;
+}
+.cuerpo .nuestraInfo__links {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+.cuerpo .tarjeta__Productos {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+.cuerpo .tarjeta__Productos .producto {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 300px;
+  border: 0.5em solid #b4d2f0;
+}
+@media (max-width: 575px) {
+  .cuerpo .tarjeta__Productos {
+    width: 220px;
+    height: 220px;
+  }
+}
+.cuerpo .tarjeta__Productos .productoImagen {
+  width: 300px;
+  height: 300px;
+}
+@media (max-width: 575px) {
+  .cuerpo .tarjeta__Productos .productoImagen {
+    width: 220px;
+    height: 220px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

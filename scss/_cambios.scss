@@ -1,0 +1,14 @@
+//maps
+$newfont: (
+    color:black
+);
+
+//mixins
+
+@mixin bordeFooter{
+    border: 3px solid gray;
+    border-radius: 2px;
+}
+.footer{
+    @include bordeFooter()
+}

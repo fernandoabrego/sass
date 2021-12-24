@@ -155,7 +155,10 @@ article .promocion__link:hover {
 .footer, .footer__ColorSecundario {
   background-color: #ffe0e6;
   height: 25vh;
+<<<<<<< HEAD
   color: black;
+=======
+>>>>>>> 079db73855f47f59d5e42a1d38e6236f968d793b
 }
 .footer li, .footer__ColorSecundario li {
   font-size: 2.7vh;

@@ -149,7 +149,10 @@ article{
 .footer{
     background-color: $color-principal;
     height: 25vh;
+<<<<<<< HEAD
     color: map-get($map: $newfont, $key:color );
+=======
+>>>>>>> 079db73855f47f59d5e42a1d38e6236f968d793b
     li{
         font-size: 2.7vh;
         line-height: 1.2;
@@ -160,6 +163,7 @@ article{
         right: 5vw;
     }
 }
+<<<<<<< HEAD
 .footer__ColorSecundario{
     @extend .footer;
     background-color:rgb(180,210,240);
@@ -206,3 +210,26 @@ article{
         }
     }
 }
+=======
+// Estilos a utilizar en páginas restantes
+//
+// .cuerpo{
+//     background-image: url(../images/bebe2.jpg);
+//     background-repeat: no-repeat;
+//     background-size:cover;
+//     background-position: center;
+// }
+// .cuerpo h2{
+//     font-size:$size-titulos;
+// }
+// .cuerpo__texto{
+//     font-size: 4vh;
+// }
+// .nuestraInfo__lista{
+//     list-style-type: none;
+// }
+// .nuestraInfo__links{
+//     color:$color-detalles;
+//     text-decoration: none;
+// }
+>>>>>>> 079db73855f47f59d5e42a1d38e6236f968d793b
